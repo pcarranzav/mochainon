@@ -1,0 +1,44 @@
+{
+  "name": "mochainon",
+  "version": "1.0.0",
+  "description": "Opitionated way to get up and running quickly with Mocha, Chai and Sinon",
+  "main": "build/mochainon.js",
+  "homepage": "https://github.com/jviotti/mochainon",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jviotti/mochainon.git"
+  },
+  "keywords": [
+    "mocha",
+    "chai",
+    "sinon",
+    "test"
+  ],
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "gulp test",
+    "prepublish": "gulp build"
+  },
+  "author": "Juan Cruz Viotti <juanchiviotti@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^3.0.0",
+    "chai-as-promised": "^5.1.0",
+    "chai-datetime": "^1.4.0",
+    "chai-interface": "^2.0.2",
+    "chai-string": "^1.1.2",
+    "chai-things": "^0.2.0",
+    "sinon": "^1.15.3",
+    "sinon-chai": "^2.8.0"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.9.3",
+    "gulp": "^3.9.0",
+    "gulp-coffee": "^2.3.1",
+    "gulp-coffeelint": "^0.5.0",
+    "gulp-mocha": "^2.1.1",
+    "gulp-util": "^3.0.5"
+  }
+}
